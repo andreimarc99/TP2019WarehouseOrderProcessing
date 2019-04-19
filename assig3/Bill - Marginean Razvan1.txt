@@ -1,0 +1,18 @@
+WAREHOUSE INC.		DATE: 2019/04/19 13:01:05
+
+
+
+
+
+Client:				Marginean Razvan
+
+Product:			Surub
+
+Product Price:			1.0
+
+Quantity:			40
+
+----------------------------------------------
+
+
+TOTAL PRICE:			40.0

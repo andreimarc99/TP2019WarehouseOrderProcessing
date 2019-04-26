@@ -1,0 +1,18 @@
+WAREHOUSE INC.		DATE: 2019/04/26 01:57:05
+
+
+
+
+
+Client:				Calin Dan
+
+Product:			Cui
+
+Product Price:			0.5
+
+Quantity:			10
+
+----------------------------------------------
+
+
+TOTAL PRICE:			5.0

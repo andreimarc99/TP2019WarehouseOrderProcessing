@@ -1,4 +1,4 @@
-package ro.tuc.tp.assig3.BusinessLogic;
+package dataAccess;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,8 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;
 
-import ro.tuc.tp.assig3.Database.Database;
-import ro.tuc.tp.assig3.Model.Client;
+import model.Client;
 /**
  * 
  * @author Marc

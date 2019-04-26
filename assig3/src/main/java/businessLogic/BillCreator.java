@@ -1,4 +1,4 @@
-package ro.tuc.tp.assig3.BusinessLogic;
+package businessLogic;
 
 import java.io.File;
 import java.io.IOException;

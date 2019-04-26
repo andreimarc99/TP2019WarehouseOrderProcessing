@@ -1,4 +1,4 @@
-package ro.tuc.tp.assig3.Model;
+package model;
 /**
  * Clasa Client este clasa ce retine informatiile ce au legatura cu clientii
  * @author Marc

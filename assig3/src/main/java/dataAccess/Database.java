@@ -1,4 +1,4 @@
-package ro.tuc.tp.assig3.Database;
+package dataAccess;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;

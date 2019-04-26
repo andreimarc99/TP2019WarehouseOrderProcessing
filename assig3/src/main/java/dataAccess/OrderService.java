@@ -1,4 +1,4 @@
-package ro.tuc.tp.assig3.BusinessLogic;
+package dataAccess;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,10 +8,9 @@ import java.util.HashMap;
 
 import javax.swing.JOptionPane;
 
-import ro.tuc.tp.assig3.Database.Database;
-import ro.tuc.tp.assig3.Model.Client;
-import ro.tuc.tp.assig3.Model.Order;
-import ro.tuc.tp.assig3.Model.Product;
+import model.Client;
+import model.Order;
+import model.Product;
 
 /**
  * Clasa OrderService contine metode care lucreaza cu continutul din baza de

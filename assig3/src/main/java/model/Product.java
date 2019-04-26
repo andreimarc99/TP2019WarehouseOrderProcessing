@@ -1,4 +1,4 @@
-package ro.tuc.tp.assig3.Model;
+package model;
 
 public class Product {
 	private String name;

@@ -1,4 +1,4 @@
-package ro.tuc.tp.assig3.gui;
+package presentation;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,16 +9,6 @@ import java.util.Map.Entry;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-
-import ro.tuc.tp.assig3.BusinessLogic.ActionListeners;
-import ro.tuc.tp.assig3.BusinessLogic.BillCreator;
-import ro.tuc.tp.assig3.BusinessLogic.ClientService;
-import ro.tuc.tp.assig3.BusinessLogic.OrderService;
-import ro.tuc.tp.assig3.BusinessLogic.ProductService;
-import ro.tuc.tp.assig3.Model.Client;
-import ro.tuc.tp.assig3.Model.Order;
-import ro.tuc.tp.assig3.Model.Product;
-
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -26,6 +16,16 @@ import javax.swing.JComboBox;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
+
+import businessLogic.ActionListeners;
+import businessLogic.BillCreator;
+import dataAccess.ClientService;
+import dataAccess.OrderService;
+import dataAccess.ProductService;
+import model.Client;
+import model.Order;
+import model.Product;
+
 import javax.swing.JTable;
 
 public class GUI extends JFrame {

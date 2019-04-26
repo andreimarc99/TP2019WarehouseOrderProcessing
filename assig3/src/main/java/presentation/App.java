@@ -1,5 +1,4 @@
-package ro.tuc.tp.assig3;
-import ro.tuc.tp.assig3.gui.GUI;
+package presentation;
 
 /**
  * Clasa unde se executa programul

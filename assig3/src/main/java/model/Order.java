@@ -1,4 +1,4 @@
-package ro.tuc.tp.assig3.Model;
+package model;
 /**
  * Order este clasa ce retine informatii in legatura cu comenzile
  * @author Marc

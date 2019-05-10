@@ -1,5 +1,6 @@
 package businessLogic;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
@@ -15,15 +16,19 @@ import presentation.GUI;
 
 public class ContentRefresher {
 
-	public static void refreshTable() {
-		HashMap<Integer, Order> orders = OrderService.retrieveOrders();
+	public static void addToTable(Object[] obj) {
 		DefaultTableModel model = (DefaultTableModel) GUI.getTable_1().getModel();
-		int i = 1;
+		model.addRow(obj);
+	}
+	
+	public static void refreshTable() {
+		DefaultTableModel model = (DefaultTableModel) GUI.getTable_1().getModel();
 		while (model.getRowCount() > 0) {
 			model.removeRow(0);
 		}
-		for (Entry<Integer, Order> entry : orders.entrySet()) {
-			model.addRow(new Object[] { i++, entry.getValue().getProduct().getStock(),
+		int i = 1;
+		for (Entry<Integer, Order> entry : OrderService.retrieveOrders().entrySet()) {
+			addToTable(new Object[] { i++, entry.getValue().getProduct().getStock(),
 					entry.getValue().getProduct().getName(), entry.getValue().getProduct().getPrice(),
 					entry.getValue().getQuantity(),
 					(float) entry.getValue().getProduct().getPrice() * entry.getValue().getQuantity(),
@@ -50,4 +55,5 @@ public class ContentRefresher {
 			GUI.getProductsComboBox().addItem(entry.getValue().getName());
 		}
 	}
+	
 }

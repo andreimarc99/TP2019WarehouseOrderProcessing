@@ -175,4 +175,20 @@ public class OrderService {
 		}
 		return orders;
 	}
+	
+	public static ResultSet getOrdersResultSet() {
+		database = new Database();
+		final Connection connection = database.getConnection();
+
+		PreparedStatement preparedStatement;
+		ResultSet resultSet = null;
+		try {
+			preparedStatement = connection.prepareStatement("SELECT * FROM ORDER_");
+			resultSet = preparedStatement.executeQuery();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return resultSet;
+	}
+	
 }

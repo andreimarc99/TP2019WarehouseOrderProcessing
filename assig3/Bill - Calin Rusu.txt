@@ -1,0 +1,18 @@
+WAREHOUSE INC.		DATE: 2019/05/10 09:54:16
+
+
+
+
+
+Client:				Calin Rusu
+
+Product:			Fierastrau
+
+Product Price:			100.0
+
+Quantity:			1
+
+----------------------------------------------
+
+
+TOTAL PRICE:			100.0

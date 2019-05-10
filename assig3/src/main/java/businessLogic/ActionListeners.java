@@ -2,6 +2,7 @@ package businessLogic;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.jar.Attributes.Name;
@@ -156,7 +157,8 @@ public class ActionListeners {
 	public static void addBtnRefreshTableActionListener() {
 		GUI.getBtnRefreshTable().addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				ContentRefresher.refreshTable();
+				Abstract abs = new Abstract();
+				abs.createTable();
 			}
 		});
 	}

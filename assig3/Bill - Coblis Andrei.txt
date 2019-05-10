@@ -1,0 +1,18 @@
+WAREHOUSE INC.		DATE: 2019/05/09 18:56:56
+
+
+
+
+
+Client:				Coblis Andrei
+
+Product:			Cui
+
+Product Price:			0.5
+
+Quantity:			100
+
+----------------------------------------------
+
+
+TOTAL PRICE:			50.0
